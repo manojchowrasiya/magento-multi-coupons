@@ -1,0 +1,11 @@
+# Code
+src/app/code/community/EbayEnterprise/* app/code/community/EbayEnterprise/
+src/app/etc/modules/*.xml app/etc/modules/
+
+# Design
+src/app/design/frontend/base/default/template/ebayenterprise_coupons/* app/design/frontend/base/default/template/ebayenterprise_coupons/
+src/app/design/adminhtml/default/default/template/ebayenterprise_coupons/* app/design/adminhtml/default/default/template/ebayenterprise_coupons/
+src/app/design/adminhtml/default/default/layout/ebayenterprise_coupons.xml app/design/adminhtml/default/default/layout/ebayenterprise_coupons.xml
+
+# JS
+src/js/ebayenterprise_coupons/* js/ebayenterprise_coupons/
