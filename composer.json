@@ -1,0 +1,11 @@
+{
+  "name": "ebayenterprise/magento-multi-coupons",
+  "description": "Adds support for multiple coupons in Magento.",
+  "authors": [
+    { "name": "Ryan Tulino", "email": "rtulino@ebay.com" }
+  ],
+  "type": "magento-module",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}
