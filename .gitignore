@@ -1,0 +1,7 @@
+*.sw[op]
+.DS_Store
+.composer/
+.idea
+/build/
+/vendor/
+nbproject

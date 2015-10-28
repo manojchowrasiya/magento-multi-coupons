@@ -1,5 +1,4 @@
 <?php
-require_once 'Mage/Checkout/controllers/CartController.php';
 /**
  * Copyright (c) 2013-2015 eBay Enterprise, Inc.
  *
@@ -14,6 +13,7 @@ require_once 'Mage/Checkout/controllers/CartController.php';
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
+require_once 'Mage/Checkout/controllers/CartController.php';
 class EbayEnterprise_MultipleCoupons_CartController extends Mage_Checkout_CartController
 {
     /**
@@ -174,5 +174,4 @@ class EbayEnterprise_MultipleCoupons_CartController extends Mage_Checkout_CartCo
     ) {
         return func_get_args();
     }
-
 }
