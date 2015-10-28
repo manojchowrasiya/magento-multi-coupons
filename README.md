@@ -2,10 +2,12 @@
 
 # Magento Multiple Coupons Extension
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/eBayEnterprise/magento-multi-coupons/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/eBayEnterprise/magento-multi-coupons/?branch=master)
+
 To add/update a coupon just set the coupon(s) to the quote and save. 
 
 ```
-php $quote->setCouponCode('foo,bar')->save();
+$quote->setCouponCode('foo,bar')->save();
 ```
 
 This triggers a validation which must split the coupon string and validate each coupon, removing invalid codes from the string as it goes.
