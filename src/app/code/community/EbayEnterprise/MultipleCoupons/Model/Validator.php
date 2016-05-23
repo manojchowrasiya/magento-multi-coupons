@@ -106,7 +106,7 @@ class EbayEnterprise_MultipleCoupons_Model_Validator extends Mage_SalesRule_Mode
      * @param   Mage_Sales_Model_Quote_Address
      * @return  bool
      */
-    protected function _canProcessRule(Mage_SalesRule_Model_Rule $rule, Mage_Sales_Model_Quote_Address $address)
+    protected function _canProcessRule($rule, $address)
     {
         /**
          * check if validation already occurred
